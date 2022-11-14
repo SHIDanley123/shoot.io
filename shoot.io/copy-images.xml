@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="copy_images" name="Copy Images for Project ca.hapke.jgame.helloworld">
+    <property name="dir.buildfile" value="."/>
+    <property name="dir.workspace" value="${dir.buildfile}/.."/>
+	<target name="copy_images">
+		<copydir src="images" dest="target/classes/ca/jin/finalgamedemo"></copydir>
+	</target>
+</project>

@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ca.jin</groupId>
+  <artifactId>finalgame</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+		<dependency>
+			<groupId>ca.hapke</groupId>
+			<artifactId>util</artifactId>
+			<version>[0.3.0,]</version>
+		</dependency>
+		<dependency>
+			<groupId>ca.hapke</groupId>
+			<artifactId>controller</artifactId>
+			<version>[0.2.0,]</version>
+		</dependency>
+		<dependency>
+			<groupId>ca.hapke</groupId>
+			<artifactId>gyro</artifactId>
+			<version>[0.1.0,]</version>
+		</dependency>
+		<dependency>
+			<groupId>org.13thmonkey</groupId>
+			<artifactId>jgame</artifactId>
+			<version>3.6.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.vecmath/vecmath -->
+		<dependency>
+		    <groupId>javax.vecmath</groupId>
+		    <artifactId>vecmath</artifactId>
+		    <version>1.5.2</version>
+		</dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
